@@ -1,7 +1,7 @@
 import { Storefront, Chat, People, VideoLibrary, ExpandMoreOutlined, EmojiFlags, LocalHospital } from '@material-ui/icons'
 import React from 'react'
 import "./Sidebar.css"
-import SidebarRow from './SidebarRow'
+import SidebarRow from './sidebarrow/SidebarRow'
 
 function Sidebar() {
     return (

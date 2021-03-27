@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Feed.css"
-import MessageSender from './MessageSender'
-import Post from './Post'
-import StoryReel from './StoryReel'
+import MessageSender from './messagesender/MessageSender'
+import Post from './post/Post'
+import StoryReel from './storyreel/StoryReel'
 
 function Feed() {
     return (
@@ -19,7 +19,7 @@ function Feed() {
                 image="https://i.imgur.com/RqS77bc.jpeg"/>
             <Post profilePic="https://avatars.githubusercontent.com/u/2356330?v=4" 
                 message= "Wowww this works"
-                username="Ashish Singh" 
+                username="Ashish Singh"
                 image="https://i.imgur.com/7XGaQwy.jpeg"/>
             <Post profilePic="https://avatars.githubusercontent.com/u/2356330?v=4" 
                 message= "Wowww this works"
