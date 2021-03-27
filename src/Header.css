@@ -53,6 +53,10 @@
 }
 
 .header__option--active {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
     border-bottom: 4px solid #2e81f4;
 }
 
