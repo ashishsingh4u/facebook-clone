@@ -1,6 +1,22 @@
 .app {
-  background-color: #f1f2f5;
+  background-color: #18191a;
 }
 .app__body {
   display: flex;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e3e6ea;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e3e6ea;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e3e6ea;
 }
