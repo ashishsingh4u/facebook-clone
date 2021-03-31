@@ -49,7 +49,8 @@
   align-items: center;
   color: #e3e6ea;
   margin: 5px;
-  transition: background-color 0.2s ease-out;
+  border-radius: 20px;
+  transition: background-color 0.4s ease-out;
 }
 
 .messageSender__option > h3 {
@@ -60,5 +61,4 @@
 
 .messageSender__option:hover {
   background-color: #3a3b3c;
-  border-radius: 20px;
 }
