@@ -28,9 +28,11 @@
 }
 
 .header__input > input {
-  border: none;
-  background-color: transparent;
   outline-width: 0;
+  border: none;
+  outline: none;
+  background-color: #3a3b3c;
+  color: #e3e6ea;
 }
 
 .header__center {
@@ -41,6 +43,8 @@
 
 .header__option > .MuiSvgIcon-root {
   color: #e3e6ea;
+  /* Make sure to use transition in all child element/class Or use transition: all */
+  transition: background-color 0.4s ease-out;
 }
 
 .header__option:hover > .MuiSvgIcon-root {
@@ -64,6 +68,8 @@
   align-items: center;
   padding: 0px 30px;
   cursor: pointer;
+  /* Make sure to use transition in all child element/class Or use transition: all */
+  transition: background-color 0.4s ease-out;
 }
 
 .header__option:hover {
